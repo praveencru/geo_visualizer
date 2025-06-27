@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geospatial Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #map {
+            height: 90vh;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Uploaded Map</h2>
+    <div id="map">
+        {{ map_html|safe }}
+    </div>
+    <br>
+    <a href="/">← Upload Another File</a>
+</body>
+</html>
